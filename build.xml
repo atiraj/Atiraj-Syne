@@ -3,7 +3,7 @@
     <property file="build.properties"/>
     <property environment="env"/>
 
-    <!-- Test out deploy and retrieve verbs for package 'mypkg' -->
+    <!-- Test out 123deploy and retrieve verbs for package 'mypkg' -->
     <target name="test">
       <!-- Upload the contents of the "mypkg" package -->
       <sf:deploy username="atiraj@gmail.com" password="abcd1234gAr1TrZzIaSgNwF5IFKmZRs8" serverurl="https://login.salesforce.com" maxPoll="${sf.maxPoll}" deployRoot="C:\Users\atiraj\Workspaces\Force.com IDE\Atiraj-Syne\src"/>
